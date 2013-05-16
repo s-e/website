@@ -1,6 +1,7 @@
 {
 	"require": {
-		"laravel/framework": "4.0.*"
+		"laravel/framework": "4.0.*",
+		"dflydev/markdown": "v1.0.2"
 	},
 	"autoload": {
 		"classmap": [

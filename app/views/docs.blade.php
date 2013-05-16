@@ -10,10 +10,10 @@
     <section class="docs-content">
         <div class="container">
             <nav class="docs-menu">
-
+                {{ $index }}
             </nav>
             <article class="docs-body">
-
+                {{ $body }}
             </article>
         </div>
     </section>

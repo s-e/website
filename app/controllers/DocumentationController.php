@@ -3,9 +3,19 @@
 class DocumentationController extends BaseController {
 
 
-    public function showTopic($topic = null)
+    public function showTopic($topic = 'introduction')
     {
-        return View::make('docs');
+        $documentation = new Documentation;
+        $index = $documentation->get('documentation');
+        $body = $documentation->get($topic);
+
+        $data = compact('index', 'body');
+        return View::make('docs', $data);
+    }
+
+    private function checkTopicExists($topic)
+    {
+        return file_exists(Config::get('site.docs')."/{$topic}.md");
     }
 
 }
