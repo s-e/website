@@ -16,4 +16,12 @@ View::share('analytics', 'xxx');
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', 'HomeController@showHome');
+Route::get('/', array(
+    'as'    => 'home',
+    'uses'  => 'HomeController@showHome',
+));
+
+Route::get('/docs/{topic?}', array(
+    'as'    => 'docs',
+    'uses'  => 'DocumentationController@showTopic',
+));
