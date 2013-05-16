@@ -2,16 +2,18 @@
 
 /*
 |--------------------------------------------------------------------------
-| Application Routes
+| Shared View Variables
 |--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+View::share('title', 'Welcome!');
+View::share('description', 'The Laravel PHP Framework.');
+View::share('analytics', 'xxx');
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('/', 'HomeController@showHome');
