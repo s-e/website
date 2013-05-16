@@ -1,0 +1,317 @@
+/* Imports */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import 'normalize.less';
+@import 'boilerplate.less';
+@import 'elements.less';
+
+/* Variables */
+@orange:#FF5949;   // fa503a
+@gray:#f5f5f5;
+
+/* Mixins */
+.striplist {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+
+    li {
+        margin:0;
+        padding:0;
+    }
+}
+
+/* Styles */
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    background-color:@orange;
+    margin:0;
+}
+
+.container {
+    font-size:16px;
+    width:820px;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+
+header,
+.features {
+    background-color:#fff;
+}
+
+.partners {
+    background-color:@gray;
+}
+
+header {
+    padding:1em 0;
+    z-index:999;
+
+    .logo {
+        float:left;
+        height:30px;
+        width:103px;
+        background-image:url(../img/logo.png);
+        text-decoration:none;
+    }
+
+    .menu {
+        ul {
+            .striplist;
+            .clearfix;
+            float:right;
+            margin-top:0.2em;
+
+            li {
+                float:left;
+                margin-left:1.5em;
+            }
+        }
+
+        a {
+            text-decoration:none;
+            text-transform:uppercase;
+            font-size:0.7em;
+            font-weight:normal;
+            color:#ccc;
+
+            &:hover {
+                color:#777;
+            }
+        }
+
+        li.active a {
+            color:@orange;
+        }
+    }
+}
+
+body.scrolled header {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    -webkit-box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+.hero {
+    background-image:url(../img/faces8.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    padding:2.5em 0;
+
+    p {
+        text-align:center;
+        color:#fff;
+        text-transform:uppercase;
+        font-weight:300;
+        font-size:1.6em;
+        line-height:1.8em;
+        text-shadow:;
+    }
+
+    .call-button {
+        display:block;
+        width:15em;
+        background-color:#fff;
+        .rounded(300px);
+        .box-shadow(0 2px 5px rgba(192,37,20,0.8));
+        margin:0 auto;
+        text-align:center;
+        padding:0.5em;
+        font-size:1.3em;
+        text-decoration:none;
+        color:@orange;
+        font-weight:bold;
+        margin-bottom:1em;
+    }
+}
+
+.features {
+    padding:2em 0;
+
+    .feature-box {
+        .striplist;
+        width:680px;
+        margin:0 auto;
+
+        li {
+            width:300px;
+            float:left;
+            margin:1em 20px;
+
+            h2 {
+                font-size:0.8em;
+                color:@orange;
+                margin:0;
+            }
+
+            p {
+                font-size:0.8em;
+                color:#777;
+                font-weight:300;
+                margin:0;
+            }
+        }
+    }
+}
+
+footer {
+    padding:2em 0;
+
+    .logo {
+        display:block;
+        margin:0 auto 0.2em auto;
+        width:27px;
+        height:27px;
+        opacity:0.6;
+
+        &:hover {
+            opacity:1;
+        }
+    }
+
+    .menu ul {
+        .striplist;
+        text-align:center;
+
+        li {
+            display:inline;
+        }
+
+        a {
+            color:lighten(@orange, 20%);
+            text-decoration:none;
+            text-transform:uppercase;
+            font-size:0.7em;
+            font-weight:normal;
+            margin:0 0.5em;
+            text-shadow:1px 1px 4px darken(@orange, 5%);
+
+            &:hover {
+                color:#fff;
+            }
+        }
+    }
+
+    .copyright {
+        text-align:center;
+        color:lighten(@orange, 15%);
+        font-weight:300;
+        text-transform:uppercase;
+        font-size:0.6em;
+        text-shadow:1px 1px 4px darken(@orange, 5%);
+    }
+}
+
+.docs-heading {
+    padding:0.3em 0;
+
+    p {
+        color:#fff;
+        text-transform:uppercase;
+        font-weight:300;
+        font-size:1.4em;
+        line-height:1.4em;
+        text-shadow:1px 1px 4px darken(@orange, 20%);
+    }
+}
+
+.docs-content {
+    background-color:@gray;
+    padding:2em 0;
+
+    .docs-body {
+        width:600px;
+        background-color:#fff;
+        min-height:600px;
+        float:right;
+    }
+}
+
+.docs-menu {
+    float:left;
+    width:160px;
+    background-color:#fff;
+    padding:20px;
+    font-size:0.9em;
+
+    ul {
+        .striplist;
+    }
+
+    a {
+        color:@orange;
+        text-decoration:none;
+    }
+
+    &>ul {
+        &>li {
+            padding-left:1em;
+            background-image:url(../img/bookmark.gif);
+            background-repeat:no-repeat;
+            background-position:0 5px;
+            margin-bottom:2em;
+            color:#555;
+        }
+
+        ul {
+            margin-top:0.2em;
+        }
+    }
+}
+
+.docs-body {
+    font-size:15px;
+
+    &>* {
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    pre {
+        font-family: Monaco, Consolas, "Lucida Console", monospace;
+        background-color:#332C29;
+        padding:20px;
+        font-size:0.7em;
+        border:0;
+        color:#e9e4e5;
+        line-height:1.9em;
+        margin:1em 0;
+
+        .pln { color: #FAF1E6 }
+        .str { color: @orange }
+        .kwd { color: #FFBD24 }
+        .com { color: #7A6963 }
+        .typ { color: @orange }
+        .lit { color: #BCD42A }
+        .pun, .opn, .clo { color: #FAF1E6 }
+        .tag { color: #4bb1b1 }
+        .atn { color: #ef7c61 }
+        .atv { color: #bcd42a }
+        .dec, .var { color: #606 }
+        .fun { color: red }
+        code { font-family: Monaco, Consolas, "Lucida Console", monospace; }
+    }
+
+    p {
+        line-height:1.6em;
+        font-weight:300;
+
+        code {
+            display:inline-block;
+            font-size:0.75em;
+            font-family: Monaco, Consolas, "Lucida Console", monospace;
+            background-color:#eee;
+            color:#555;
+            padding:0em 0.6em;
+            margin:0 0.2em;
+        }
+    }
+
+    a {
+        color:@orange;
+    }
+}
