@@ -84,6 +84,9 @@ body.scrolled header{position:fixed;top:0;left:0;right:0;-webkit-box-shadow:0 3p
 .features{padding:2em 0;}.features .feature-box{margin:0;padding:0;list-style-type:none;width:680px;margin:0 auto;}.features .feature-box li{margin:0;padding:0;}
 .features .feature-box li{width:300px;float:left;margin:1em 20px;}.features .feature-box li h2{font-size:0.8em;color:#ff5949;margin:0;}
 .features .feature-box li p{font-size:0.8em;color:#777;font-weight:300;margin:0;}
+.partners{background-color:#eee;padding:2em 0;}.partners ul{margin:0;padding:0;list-style-type:none;margin:0 auto;width:640px;}.partners ul li{margin:0;padding:0;}
+.partners ul li{display:block;float:left;margin:0 1em;opacity:0.6;}.partners ul li:hover{opacity:1;}
+.partners h2{text-align:center;color:#999;font-weight:normal;margin:0 0 0.5em 0;line-height:1em;}
 footer{padding:2em 0;}footer .logo{display:block;margin:0 auto 0.2em auto;width:27px;height:27px;opacity:0.6;}footer .logo:hover{opacity:1;}
 footer .menu ul{margin:0;padding:0;list-style-type:none;text-align:center;}footer .menu ul li{margin:0;padding:0;}
 footer .menu ul li{display:inline;}
@@ -92,7 +95,7 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .docs-heading{padding:0.3em 0;}.docs-heading p{color:#fff;text-transform:uppercase;font-weight:300;font-size:1.4em;line-height:1.4em;text-shadow:1px 1px 4px #e21400;}
 .docs-content{background-color:#f5f5f5;padding:2em 0;}.docs-content .docs-body{width:600px;background-color:#fff;min-height:600px;float:right;}
 .docs-menu{float:left;width:160px;background-color:#fff;padding:20px;font-size:0.9em;}.docs-menu ul{margin:0;padding:0;list-style-type:none;}.docs-menu ul li{margin:0;padding:0;}
-.docs-menu a{color:#ff5949;text-decoration:none;}
+.docs-menu a{color:#ff5949;text-decoration:none;}.docs-menu a:hover{color:#c81200;text-decoration:underline;}
 .docs-menu>ul>li{padding-left:1em;background-image:url(../img/bookmark.gif);background-repeat:no-repeat;background-position:0 5px;margin-bottom:2em;color:#555;}
 .docs-menu>ul ul{margin-top:0.2em;}
 .docs-body{font-size:15px;}.docs-body>*{margin-left:20px;margin-right:20px;}

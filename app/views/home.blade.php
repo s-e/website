@@ -49,7 +49,13 @@
 
     <section class="partners">
         <div class="container">
-            <p>Partners</p>
+            <h2>Say hi to some of our friends!</h2>
+            <ul>
+                <li><a href="#"><img src="{{ asset('img/cartalyst.png') }}" alt=""></a></li>
+                <li><a href="#"><img src="{{ asset('img/snappy.png') }}" alt=""></a></li>
+                <li><a href="#"><img src="{{ asset('img/dayle.png') }}" alt=""></a></li>
+                <li><a href="#"><img src="" alt=""></a></li>
+            </ul>
         </div>
     </section>
 @stop

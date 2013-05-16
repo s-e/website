@@ -158,6 +158,36 @@ body.scrolled header {
     }
 }
 
+.partners {
+    background-color:#eee;
+    padding:2em 0;
+
+    ul {
+        .striplist;
+        margin:0 auto;
+        width:640px;
+
+        li {
+            display:block;
+            float:left;
+            margin:0 1em;
+            opacity:0.6;
+
+            &:hover {
+                opacity:1;
+            }
+        }
+    }
+
+    h2 {
+        text-align:center;
+        color:#999;
+        font-weight:normal;
+        margin:0 0 0.5em 0;
+        line-height:1em;
+    }
+}
+
 footer {
     padding:2em 0;
 
@@ -245,6 +275,11 @@ footer {
     a {
         color:@orange;
         text-decoration:none;
+
+        &:hover {
+            color:darken(@orange, 25%);
+            text-decoration:underline;
+        }
     }
 
     &>ul {
