@@ -14,11 +14,11 @@
 @section('body')
     <header>
         <div class="container">
-            <a href="#" class="logo">&nbsp;</a>
+            <a href="{{ route('home') }}" title="Laravel PHP Framework" class="logo">&nbsp;</a>
             <nav class="menu">
                 <ul>
-                    <li class="active"><a href="#">Welcome</a></li>
-                    <li><a href="docs.html">Documentation</a></li>
+                    <li class="active"><a href="{{ route('home') }}" title="Welcome">Welcome</a></li>
+                    <li><a href="{{ route('docs') }}" title="Documentation">Documentation</a></li>
                     <li><a href="#">API</a></li>
                     <li><a href="#">Forums</a></li>
                 </ul>
@@ -31,11 +31,11 @@
 
     <footer>
         <div class="container">
-            <a href="#" class="logo"><img src="img/footer_logo.png" alt=""></a>
+            <a href="{{ route('home') }}" title="Laravel PHP Framework" class="logo"><img src="{{ asset('img/footer_logo.png') }}" alt="Laravel PHP Framework"></a>
             <nav class="menu">
                 <ul>
-                    <li><a href="#">Welcome</a></li>
-                    <li><a href="#">Documentation</a></li>
+                    <li><a href="{{ route('home') }}" title="Welcome">Welcome</a></li>
+                    <li><a href="{{ route('docs') }}" title="Documentation">Documentation</a></li>
                     <li><a href="#">API</a></li>
                     <li><a href="#">Forums</a></li>
                 </ul>
