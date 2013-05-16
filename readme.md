@@ -1,13 +1,12 @@
-## Laravel 4.x
+# [Laravel Website](http://laravel.com)
 
-### A Framework For Web Artisans
+This repository contains the source for the Laravel four website.
 
-[Official Documentation](http://four.laravel.com) (Under Active Development)
+## Quick start
 
-### Contributing To Laravel
+1. Clone the repository and create a virtualhost / server for it.
+2. Composer install.
+3. Clone the `laravel/docs` repository into the root of the package.
+4. Extra configuration can be found in `app/config/site.php`.
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Enjoy!
