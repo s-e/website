@@ -1661,10 +1661,17 @@ prettyPrint();
 $(window).scroll(function()
 {
     var pos = $(window).scrollTop();
-    if (pos > 200) {
+    if (pos > 100) {
             $('body').addClass('scrolled');
     }
     else {
         $('body').removeClass('scrolled');
     }
 });
+
+  $('.docs-body h2').each(function(index, element)
+  {
+    element = $(element);
+    anchor = element.prev().children().eq(0).attr('name');
+    element.html(element.html() + '<a class="anchor" href="#' + anchor + '">#</a>');
+  });

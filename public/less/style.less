@@ -28,6 +28,10 @@ body {
     margin:0;
 }
 
+body {
+    margin-top:3.9em;
+}
+
 .container {
     font-size:16px;
     width:820px;
@@ -88,44 +92,75 @@ header {
     }
 }
 
-body.scrolled header {
+body header {
     position:fixed;
     top:0;
     left:0;
     right:0;
+}
+
+body.scrolled header {
     -webkit-box-shadow:0 3px 10px rgba(0,0,0,0.2);
 }
 
 .hero {
-    background-image:url(../img/faces8.png);
-    background-repeat:no-repeat;
+    background-image:url(../img/faces9.png);
     background-position:center;
-    padding:2.5em 0;
+    height:320px;
 
-    p {
+    .container {
+        overflow:visible;
+    }
+
+    h1 {
         text-align:center;
         color:#fff;
         text-transform:uppercase;
         font-weight:300;
         font-size:1.6em;
         line-height:1.8em;
-        text-shadow:;
+        overflow:hidden;
+
+        .line-one,
+        .line-two {
+            display:block;
+            background-color:rgba(255,255,255,0.9);
+            -webkit-box-shadow:2px 4px 2px rgba(0,0,0,0.4);
+            color:@orange;
+            padding:0.3em 0.5em;
+            text-shadow:2px 2px 0 #fff;
+        }
+
+        .line-one {
+            width:680px;
+            margin:1.5em auto 0.6em auto;
+        }
+
+        .line-two {
+            width:520px;
+            margin:0 auto 0.8em auto;
+        }
     }
 
     .call-button {
         display:block;
-        width:15em;
-        background-color:#fff;
-        .rounded(300px);
-        .box-shadow(0 2px 5px rgba(192,37,20,0.8));
-        margin:0 auto;
-        text-align:center;
-        padding:0.5em;
-        font-size:1.3em;
+        background-color:@orange;
+        color:#fff;
         text-decoration:none;
-        color:@orange;
-        font-weight:bold;
-        margin-bottom:1em;
+        width:16em;
+        padding:0.5em;
+        margin:0 auto;
+        text-transform:uppercase;
+        font-size:1.4em;
+        text-align: center;
+        border-radius:300px;
+        .gradient(@orange, darken(@orange, 20%), @orange);
+        .box-shadow(0 3px 2px rgba(0,0,0,0.7));
+        text-shadow:0 2px 2px rgba(0,0,0,0.2);
+
+        &:hover {
+            .gradient(#FFA98C, darken(@orange, 20%), #FFA98C);
+        }
     }
 }
 
@@ -146,6 +181,15 @@ body.scrolled header {
                 font-size:0.8em;
                 color:@orange;
                 margin:0;
+            }
+
+            h2 a {
+                color:@orange;
+                text-decoration:none;
+
+                &:hover {
+                    text-decoration:underline;
+                }
             }
 
             p {
@@ -348,5 +392,15 @@ footer {
 
     a {
         color:@orange;
+    }
+
+    h2 a {
+        opacity:0.2;
+        text-decoration:none;
+        padding-left:0.2em;
+
+        &:hover {
+            opacity:1;
+        }
     }
 }
