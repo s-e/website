@@ -15,6 +15,7 @@
             <article class="docs-body">
                 {{ $body }}
             </article>
+            <div class="clearfix"></div>
         </div>
     </section>
 @stop

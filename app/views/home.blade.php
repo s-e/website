@@ -47,6 +47,7 @@
                     <p>Laravel is built with testing in mind. Stay flexible with the IoC container, and run your tests with PHPUnit. Don't worry... it's easier than you think.</p>
                 </li>
             </ul>
+            <div class="clearfix"></div>
         </div>
     </section>
 
@@ -87,6 +88,7 @@
                 <li><a href="#"><img src="" alt=""></a></li>
             </ul>
             -->
+            <div class="clearfix"></div>
         </div>
     </section>
 @stop
