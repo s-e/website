@@ -20,6 +20,7 @@
                     <li class="active"><a href="{{ route('home') }}" title="Welcome">Welcome</a></li>
                     <li><a href="{{ route('docs') }}" title="Documentation">Documentation</a></li>
                     <li><a href="#">API</a></li>
+                    <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
                     <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
                 </ul>
             </nav>
@@ -37,6 +38,7 @@
                     <li><a href="{{ route('home') }}" title="Welcome">Welcome</a></li>
                     <li><a href="{{ route('docs') }}" title="Documentation">Documentation</a></li>
                     <li><a href="#">API</a></li>
+                    <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
                     <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
                 </ul>
             </nav>
