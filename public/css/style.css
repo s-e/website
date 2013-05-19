@@ -126,4 +126,4 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .docs-body ul{list-style-type:none;padding:0;}.docs-body ul li{background-image:url(../img/bullet.png);background-repeat:no-repeat;background-position:0 4px;padding-left:1em;margin:0.4em 0;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;transition:all 0.2s linear;}.docs-body ul li:hover{background-position:3px 4px;}
 .docs-body ul li a{text-decoration:none;}.docs-body ul li a:hover{text-decoration:underline;}
 .friend-box{width:620px;margin:0 auto;overflow:hidden;}.friend-box .friend-logo{float:left;}
-.friend-box .friend-caption{width:420px;float:right;color:#999;text-align:center;padding-top:2.5em;font-weight:300;text-shadow:1px 1px 0 #fff;font-style:italic;}
+.friend-box .friend-caption{width:460px;float:right;color:#999;text-align:center;padding-top:1.2em;font-weight:300;text-shadow:1px 1px 0 #fff;font-style:italic;}
