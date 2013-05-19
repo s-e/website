@@ -1,6 +1,12 @@
 @extends('layouts.default')
 
 @section('content')
+    <section class="notice">
+        <div class="container">
+            <strong>Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales.
+        </div>
+    </section>
+
     <section class="hero">
         <div class="container">
             <h1>

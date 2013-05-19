@@ -127,3 +127,4 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .docs-body ul li a{text-decoration:none;}.docs-body ul li a:hover{text-decoration:underline;}
 .friend-box{width:620px;margin:0 auto;overflow:hidden;}.friend-box .friend-logo{float:left;}
 .friend-box .friend-caption{width:460px;float:right;color:#999;text-align:center;padding-top:1.2em;font-weight:300;text-shadow:1px 1px 0 #fff;font-style:italic;}
+.notice{color:#fff;padding:0.8em 0;height:0.4em;text-shadow:1px 1px 4px #e21400;}
