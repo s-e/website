@@ -155,12 +155,11 @@ body.scrolled header {
         text-align: center;
         border-radius:300px;
         //.gradient(@orange, darken(@orange, 20%), @orange);
-        .box-shadow(0 2px 2px rgba(0,0,0,0.5));
-        text-shadow:0 2px 2px rgba(0,0,0,0.2);
+        .box-shadow(0 2px 1px rgba(0,0,0,0.5));
+        text-shadow:0 2px 2px darken(@orange, 25%);
 
         &:hover {
-            color:#FFA98C;
-            //.gradient(#FFA98C, darken(@orange, 20%), #FFA98C);
+            background-color:darken(@orange, 10%);
         }
     }
 }
@@ -398,10 +397,70 @@ footer {
     h2 a {
         opacity:0.2;
         text-decoration:none;
-        padding-left:0.2em;
+        padding-left:0.4em;
 
         &:hover {
             opacity:1;
         }
+    }
+
+    h1 {
+        color:#555;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color:#888;
+        font-weight:300;
+    }
+
+    ul {
+        list-style-type:none;
+        padding:0;
+
+        li {
+            background-image:url(../img/bullet.png);
+            background-repeat:no-repeat;
+            background-position:0 4px;
+            padding-left:1em;
+            margin:0.4em 0;
+            .transition(.2s, linear);
+
+            &:hover {
+                background-position:3px 4px;
+            }
+
+            a {
+                text-decoration:none;
+
+                &:hover {
+                    text-decoration:underline;
+                }
+            }
+        }
+    }
+}
+
+.friend-box {
+    width:620px;
+    margin:0 auto;
+    overflow:hidden;
+
+    .friend-logo {
+        float:left;
+    }
+
+    .friend-caption {
+        width:420px;
+        float:right;
+        color:#999;
+        text-align:center;
+        padding-top:2.5em;
+        font-weight:300;
+        text-shadow:1px 1px 0 #fff;
+        font-style:italic;
     }
 }

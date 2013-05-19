@@ -52,13 +52,41 @@
 
     <section class="partners">
         <div class="container">
+            <div class="friend-box">
+                <div class="friend-logo">
+                    <a href="#"><img src="{{ asset('img/cartalyst.png') }}" alt=""></a>
+                </div>
+                <div class="friend-caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
+                </div>
+            </div>
+
+            <!--
+            <div class="friend-box">
+                <div class="friend-logo">
+                    <a href="#"><img src="{{ asset('img/snappy.png') }}" alt=""></a>
+                </div>
+                <div class="friend-caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
+                </div>
+            </div>
+            <div class="friend-box">
+                <div class="friend-logo">
+                    <a href="#"><img src="{{ asset('img/dayle.png') }}" alt=""></a>
+                </div>
+                <div class="friend-caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
+                </div>
+            </div>
+
             <h2>Say hi to some of our friends!</h2>
             <ul>
-                <li><a href="#"><img src="{{ asset('img/cartalyst.png') }}" alt=""></a></li>
+                <li></li>
                 <li><a href="#"><img src="{{ asset('img/snappy.png') }}" alt=""></a></li>
                 <li><a href="#"><img src="{{ asset('img/dayle.png') }}" alt=""></a></li>
                 <li><a href="#"><img src="" alt=""></a></li>
             </ul>
+            -->
         </div>
     </section>
 @stop

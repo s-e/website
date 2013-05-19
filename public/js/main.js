@@ -1661,7 +1661,7 @@ prettyPrint();
 $(window).scroll(function()
 {
     var pos = $(window).scrollTop();
-    if (pos > 100) {
+    if (pos > 40) {
             $('body').addClass('scrolled');
     }
     else {
@@ -1669,9 +1669,9 @@ $(window).scroll(function()
     }
 });
 
-  $('.docs-body h2').each(function(index, element)
-  {
-    element = $(element);
-    anchor = element.prev().children().eq(0).attr('name');
-    element.html(element.html() + '<a class="anchor" href="#' + anchor + '">#</a>');
-  });
+$('.docs-body h2').each(function(index, element)
+{
+  element = $(element);
+  anchor = element.prev().children().eq(0).attr('name');
+  element.html(element.html() + '<a class="anchor" href="#' + anchor + '">#</a>');
+});
