@@ -81,11 +81,11 @@ header .menu a{text-decoration:none;text-transform:uppercase;font-size:0.7em;fon
 header .menu li.active a{color:#ff5949;}
 body header{position:fixed;top:0;left:0;right:0;}
 body.scrolled header{-webkit-box-shadow:0 3px 10px rgba(0, 0, 0, 0.2);}
-.hero{background-image:url(../img/faces10.png);background-position:center;height:320px;}.hero .container{overflow:visible;}
-.hero h1{text-align:center;color:#fff;text-transform:uppercase;font-weight:300;font-size:1.6em;line-height:1.8em;overflow:hidden;}.hero h1 .line-one,.hero h1 .line-two{display:block;background-color:rgba(255, 255, 255, 0.9);-webkit-box-shadow:2px 4px 2px rgba(0, 0, 0, 0.3);color:#ff5949;padding:0.3em 0.5em;text-shadow:2px 2px 0 #fff;}
+.hero{background-image:url(../img/faces11.png);background-position:center;height:320px;}.hero .container{overflow:visible;}
+.hero h1{text-align:center;color:#fff;text-transform:uppercase;font-weight:300;font-size:1.6em;line-height:1.8em;overflow:hidden;}.hero h1 .line-one,.hero h1 .line-two{display:block;background-color:rgba(255, 255, 255, 0.9);-webkit-box-shadow:1px 2px 2px rgba(0, 0, 0, 0.3);color:#ff5949;padding:0.3em 0.5em;text-shadow:2px 2px 0 #fff;}
 .hero h1 .line-one{width:680px;margin:1.5em auto 0.6em auto;}
 .hero h1 .line-two{width:520px;margin:0 auto 0.8em auto;}
-.hero .call-button{display:block;background-color:#ff5949;color:#fff;text-decoration:none;width:16em;padding:0.5em;margin:0 auto;text-transform:uppercase;font-size:1.4em;text-align:center;border-radius:300px;-webkit-box-shadow:0 3px 2px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 3px 2px rgba(0, 0, 0, 0.5);box-shadow:0 3px 2px rgba(0, 0, 0, 0.5);text-shadow:0 2px 2px rgba(0, 0, 0, 0.2);}.hero .call-button:hover{color:#FFA98C;}
+.hero .call-button{display:block;background-color:#ff5949;color:#fff;text-decoration:none;width:16em;padding:0.5em;margin:0 auto;text-transform:uppercase;font-size:1.4em;text-align:center;border-radius:300px;-webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.5);box-shadow:0 2px 2px rgba(0, 0, 0, 0.5);text-shadow:0 2px 2px rgba(0, 0, 0, 0.2);}.hero .call-button:hover{color:#FFA98C;}
 .features{padding:2em 0;}.features .feature-box{margin:0;padding:0;list-style-type:none;width:680px;margin:0 auto;}.features .feature-box li{margin:0;padding:0;}
 .features .feature-box li{width:300px;float:left;margin:1em 20px;}.features .feature-box li h2{font-size:0.8em;color:#ff5949;margin:0;}
 .features .feature-box li h2 a{color:#ff5949;text-decoration:none;}.features .feature-box li h2 a:hover{text-decoration:underline;}
