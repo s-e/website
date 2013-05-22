@@ -374,6 +374,26 @@ footer {
         margin-right:20px;
     }
 
+    blockquote {
+        background-color:@orange;
+        color:#fff;
+        margin:1em 0;
+        padding:5px 20px;
+        font-size:0.85em;
+        background-image:url(../img/note.png);
+        background-repeat:no-repeat;
+        background-position:550px 10px;
+
+        p {
+            margin-right:100px;
+
+            code {
+                background-color:(darken(@orange, 6%));
+                color:(lighten(@orange, 30%));
+            }
+        }
+    }
+
     pre {
         font-family: Monaco, Consolas, "Lucida Console", monospace;
         background-color:#332C29;
@@ -465,6 +485,40 @@ footer {
                     text-decoration:underline;
                 }
             }
+        }
+    }
+
+    ol {
+        padding:0;
+        margin:1.5em 40px;
+
+        li {
+            margin:0.5em 0;
+        }
+    }
+
+    table {
+        border:1px solid #eee;
+        font-size:0.9em;
+
+
+        td,
+        th {
+            padding:0.5em 1em;
+            text-align:left;
+        }
+
+        th {
+            background-color:@orange;
+            color:#fff;
+        }
+
+        td {
+            font-weight:300;
+        }
+
+        tr {
+            border-bottom:1px solid #f0f0f0;
         }
     }
 }

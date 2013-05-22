@@ -107,6 +107,7 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .docs-menu>ul ul{margin-top:0.2em;}
 .docs-body{font-size:15px;padding-bottom:1.5em;-webkit-box-shadow:2px 4px 1px #eeeeee;-moz-box-shadow:2px 4px 1px #eeeeee;box-shadow:2px 4px 1px #eeeeee;}.docs-body h2:before{display:block;content:"";height:100px;margin:-100px 0 0;}
 .docs-body>*{margin-left:20px;margin-right:20px;}
+.docs-body blockquote{background-color:#ff5949;color:#fff;margin:1em 0;padding:5px 20px;font-size:0.85em;background-image:url(../img/note.png);background-repeat:no-repeat;background-position:550px 10px;}.docs-body blockquote p{margin-right:100px;}.docs-body blockquote p code{background-color:#ff3d2a;color:#ffe5e2;}
 .docs-body pre{font-family:Monaco,Consolas,"Lucida Console",monospace;background-color:#332C29;padding:20px;font-size:0.7em;border:0;color:#e9e4e5;line-height:1.9em;margin:1em 0;}.docs-body pre .pln{color:#faf1e6;}
 .docs-body pre .str{color:#ff5949;}
 .docs-body pre .kwd{color:#ffbd24;}
@@ -127,6 +128,11 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .docs-body h2,.docs-body h3,.docs-body h4,.docs-body h5,.docs-body h6{color:#888;font-weight:300;margin-top:2em;}
 .docs-body ul{list-style-type:none;padding:0;}.docs-body ul li{background-image:url(../img/bullet.png);background-repeat:no-repeat;background-position:0 4px;padding-left:1em;margin:0.4em 0;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;transition:all 0.2s linear;}.docs-body ul li:hover{background-position:3px 4px;}
 .docs-body ul li a{text-decoration:none;}.docs-body ul li a:hover{text-decoration:underline;}
+.docs-body ol{padding:0;margin:1.5em 40px;}.docs-body ol li{margin:0.5em 0;}
+.docs-body table{border:1px solid #eee;font-size:0.9em;}.docs-body table td,.docs-body table th{padding:0.5em 1em;text-align:left;}
+.docs-body table th{background-color:#ff5949;color:#fff;}
+.docs-body table td{font-weight:300;}
+.docs-body table tr{border-bottom:1px solid #f0f0f0;}
 .friend-box{width:630px;margin:0 auto;overflow:hidden;}.friend-box .friend-logo{float:left;}
 .friend-box .friend-caption{width:460px;float:right;color:#999;text-align:center;padding-top:1.2em;font-weight:300;text-shadow:1px 1px 0 #fff;font-style:italic;}
 .notice{color:#fff;padding:0.8em 0;height:0.4em;text-shadow:1px 1px 4px #e21400;}
