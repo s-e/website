@@ -5,7 +5,8 @@ class HomeController extends BaseController {
 
 	public function showHome()
 	{
-		return View::make('home');
+        $data['notice'] = Config::get('site.notice');
+		return View::make('home', $data);
 	}
 
 }

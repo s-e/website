@@ -85,7 +85,7 @@ body.scrolled header{-webkit-box-shadow:0 3px 10px rgba(0, 0, 0, 0.2);}
 .hero h1{text-align:center;color:#fff;text-transform:uppercase;font-weight:300;font-size:1.6em;line-height:1.8em;overflow:hidden;}.hero h1 .line-one,.hero h1 .line-two{display:block;background-color:rgba(255, 255, 255, 0.9);-webkit-box-shadow:1px 2px 2px rgba(0, 0, 0, 0.3);color:#ff5949;padding:0.3em 0.5em;text-shadow:2px 2px 0 #fff;}
 .hero h1 .line-one{width:680px;margin:1.6em auto 0.6em auto;}
 .hero h1 .line-two{width:520px;margin:0 auto 0.8em auto;}
-.hero .call-button{display:block;background-color:#ff5949;color:#fff;text-decoration:none;width:16em;padding:0.5em;margin:0 auto;text-transform:uppercase;font-size:1.4em;text-align:center;border-radius:300px;-webkit-box-shadow:0 2px 1px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 2px 1px rgba(0, 0, 0, 0.5);box-shadow:0 2px 1px rgba(0, 0, 0, 0.5);text-shadow:0 2px 2px #c81200;}.hero .call-button:hover{background-color:#ff2a16;}
+.hero .call-button{display:block;background-color:#ff5949;color:#fff;text-decoration:none;width:16em;padding:0.5em;margin:0 auto;text-transform:uppercase;font-size:1.4em;text-align:center;border-radius:300px;-webkit-box-shadow:0 2px 1px rgba(110, 33, 13, 0.5);-moz-box-shadow:0 2px 1px rgba(110, 33, 13, 0.5);box-shadow:0 2px 1px rgba(110, 33, 13, 0.5);text-shadow:0 2px 2px #c81200;}.hero .call-button:hover{background-color:#ff2a16;}
 .features{padding:2em 0;}.features .feature-box{margin:0;padding:0;list-style-type:none;width:680px;margin:0 auto;}.features .feature-box li{margin:0;padding:0;}
 .features .feature-box li{width:300px;float:left;margin:1em 20px;}.features .feature-box li h2{font-size:0.8em;color:#ff5949;margin:0;}
 .features .feature-box li h2 a{color:#ff5949;text-decoration:none;}.features .feature-box li h2 a:hover{text-decoration:underline;}
@@ -98,7 +98,8 @@ footer .menu ul{margin:0;padding:0;list-style-type:none;text-align:center;}foote
 footer .menu ul li{display:inline;}
 footer .menu ul a{color:#ffb6af;text-decoration:none;text-transform:uppercase;font-size:0.7em;font-weight:normal;margin:0 0.5em;text-shadow:1px 1px 4px #ff422f;}footer .menu ul a:hover{color:#fff;}
 footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform:uppercase;font-size:0.6em;text-shadow:1px 1px 4px #ff422f;}
-.docs-heading{padding:0.3em 0;}.docs-heading p{color:#fff;text-transform:uppercase;font-weight:300;font-size:1.4em;line-height:1.4em;text-shadow:1px 1px 4px #e21400;}
+.docs-heading{padding:0.3em 0;overflow:hidden;}.docs-heading h2{float:left;color:#fff;text-transform:uppercase;font-weight:300;font-size:1.4em;line-height:1.4em;text-shadow:1px 1px 4px #e21400;}
+.docs-heading .sponsor{float:right;color:#fff;margin-top:6px;}.docs-heading .sponsor img{margin-left:1em;}
 .docs-content{background-color:#f5f5f5;padding:2em 0;}.docs-content .docs-body{width:600px;background-color:#fff;min-height:600px;float:right;}
 .docs-menu{float:left;width:160px;background-color:#fff;padding:20px;font-size:0.9em;-webkit-box-shadow:2px 4px 1px #eeeeee;-moz-box-shadow:2px 4px 1px #eeeeee;box-shadow:2px 4px 1px #eeeeee;}.docs-menu ul{margin:0;padding:0;list-style-type:none;}.docs-menu ul li{margin:0;padding:0;}
 .docs-menu a{color:#ff5949;text-decoration:none;}.docs-menu a:hover{color:#c81200;text-decoration:underline;}
@@ -125,6 +126,7 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .docs-body h2,.docs-body h3,.docs-body h4,.docs-body h5,.docs-body h6{color:#888;font-weight:300;margin-top:2em;}
 .docs-body ul{list-style-type:none;padding:0;}.docs-body ul li{background-image:url(../img/bullet.png);background-repeat:no-repeat;background-position:0 4px;padding-left:1em;margin:0.4em 0;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;transition:all 0.2s linear;}.docs-body ul li:hover{background-position:3px 4px;}
 .docs-body ul li a{text-decoration:none;}.docs-body ul li a:hover{text-decoration:underline;}
-.friend-box{width:620px;margin:0 auto;overflow:hidden;}.friend-box .friend-logo{float:left;}
+.friend-box{width:630px;margin:0 auto;overflow:hidden;}.friend-box .friend-logo{float:left;}
 .friend-box .friend-caption{width:460px;float:right;color:#999;text-align:center;padding-top:1.2em;font-weight:300;text-shadow:1px 1px 0 #fff;font-style:italic;}
 .notice{color:#fff;padding:0.8em 0;height:0.4em;text-shadow:1px 1px 4px #e21400;}
+.sponsor{float:right;}

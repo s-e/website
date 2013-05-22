@@ -17,8 +17,8 @@
             <a href="{{ route('home') }}" title="Laravel PHP Framework" class="logo">&nbsp;</a>
             <nav class="menu">
                 <ul>
-                    <li class="active"><a href="{{ route('home') }}" title="Welcome">Welcome</a></li>
-                    <li><a href="{{ route('docs') }}" title="Documentation">Documentation</a></li>
+                    <li<? if(Request::is('/')): ?> class="active"<? endif; ?>><a href="{{ route('home') }}" title="Welcome">Welcome</a></li>
+                    <li<? if(Request::is('docs*')): ?> class="active"<? endif; ?>><a href="{{ route('docs') }}" title="Documentation">Documentation</a></li>
                     <li><a href="#">API</a></li>
                     <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
                     <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>

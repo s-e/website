@@ -1,11 +1,13 @@
 @extends('layouts.default')
 
 @section('content')
+    @if (! is_null($notice))
     <section class="notice">
         <div class="container">
-            <strong>Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales.
+            {{$notice}}
         </div>
     </section>
+    @endif
 
     <section class="hero">
         <div class="container">
@@ -59,6 +61,8 @@
 
     <section class="partners">
         <div class="container">
+            <?php $rand = rand(0,2); ?>
+            @if ($rand == 0)
             <div class="friend-box">
                 <div class="friend-logo">
                     <a href="#"><img src="{{ asset('img/cartalyst.png') }}" alt=""></a>
@@ -67,8 +71,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
                 </div>
             </div>
-
-            <!--
+            @elseif ($rand == 1)
             <div class="friend-box">
                 <div class="friend-logo">
                     <a href="#"><img src="{{ asset('img/snappy.png') }}" alt=""></a>
@@ -77,6 +80,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
                 </div>
             </div>
+            @else
             <div class="friend-box">
                 <div class="friend-logo">
                     <a href="#"><img src="{{ asset('img/dayle.png') }}" alt=""></a>
@@ -85,15 +89,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
                 </div>
             </div>
-
-            <h2>Say hi to some of our friends!</h2>
-            <ul>
-                <li></li>
-                <li><a href="#"><img src="{{ asset('img/snappy.png') }}" alt=""></a></li>
-                <li><a href="#"><img src="{{ asset('img/dayle.png') }}" alt=""></a></li>
-                <li><a href="#"><img src="" alt=""></a></li>
-            </ul>
-            -->
+            @endif
             <div class="clearfix"></div>
         </div>
     </section>

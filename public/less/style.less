@@ -155,7 +155,7 @@ body.scrolled header {
         text-align: center;
         border-radius:300px;
         //.gradient(@orange, darken(@orange, 20%), @orange);
-        .box-shadow(0 2px 1px rgba(0,0,0,0.5));
+        .box-shadow(0 2px 1px rgba(110,33,13,0.5));
         text-shadow:0 2px 2px darken(@orange, 25%);
 
         &:hover {
@@ -282,14 +282,28 @@ footer {
 
 .docs-heading {
     padding:0.3em 0;
+    overflow:hidden;
 
-    p {
+
+
+    h2 {
+        float:left;
         color:#fff;
         text-transform:uppercase;
         font-weight:300;
         font-size:1.4em;
         line-height:1.4em;
         text-shadow:1px 1px 4px darken(@orange, 20%);
+    }
+
+    .sponsor {
+        float:right;
+        color:#fff;
+        margin-top:6px;
+
+        img {
+            margin-left:1em;
+        }
     }
 }
 
@@ -449,7 +463,7 @@ footer {
 }
 
 .friend-box {
-    width:620px;
+    width:630px;
     margin:0 auto;
     overflow:hidden;
 
@@ -474,4 +488,8 @@ footer {
     padding:0.8em 0;
     height:0.4em;
     text-shadow:1px 1px 4px darken(@orange, 20%);
+}
+
+.sponsor {
+    float:right;
 }
