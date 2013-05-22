@@ -7,7 +7,7 @@
 */
 
 View::share('title', 'Welcome!');
-View::share('description', 'The Laravel PHP Framework.');
+View::share('description', 'Laravel, the elegant PHP framework for web artisans. Start enjoying development again.');
 View::share('analytics', Config::get('site.ga'));
 
 /*
