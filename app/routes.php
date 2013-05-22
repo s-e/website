@@ -8,7 +8,7 @@
 
 View::share('title', 'Welcome!');
 View::share('description', 'The Laravel PHP Framework.');
-View::share('analytics', 'xxx');
+View::share('analytics', Config::get('site.ga'));
 
 /*
 |--------------------------------------------------------------------------

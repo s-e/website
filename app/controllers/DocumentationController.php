@@ -8,14 +8,9 @@ class DocumentationController extends BaseController {
         $documentation = new Documentation;
         $index = $documentation->get('documentation');
         $body = $documentation->get($topic);
+        $title = 'Documentation';
 
-        $data = compact('index', 'body');
+        $data = compact('index', 'body', 'title');
         return View::make('docs', $data);
     }
-
-    private function checkTopicExists($topic)
-    {
-        return file_exists(Config::get('site.docs')."/{$topic}.md");
-    }
-
 }
