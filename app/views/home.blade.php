@@ -65,7 +65,7 @@
             @if ($rand == 0)
             <div class="friend-box">
                 <div class="friend-logo">
-                    <a href="#"><img src="{{ asset('img/cartalyst.png') }}" alt=""></a>
+                    <a href="http://www.cartalyst.com/" title="Cartalyst"><img src="{{ asset('img/cartalyst.png') }}"></a>
                 </div>
                 <div class="friend-caption">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
@@ -74,7 +74,7 @@
             @elseif ($rand == 1)
             <div class="friend-box">
                 <div class="friend-logo">
-                    <a href="#"><img src="{{ asset('img/snappy.png') }}" alt=""></a>
+                    <a href="http://www.besnappy.com/" title="Snappy"><img src="{{ asset('img/snappy.png') }}"></a>
                 </div>
                 <div class="friend-caption">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
@@ -83,7 +83,7 @@
             @else
             <div class="friend-box">
                 <div class="friend-logo">
-                    <a href="#"><img src="{{ asset('img/dayle.png') }}" alt=""></a>
+                    <a href="http://daylerees.com/" title="Dayle Rees"><img src="{{ asset('img/dayle.png') }}"></a>
                 </div>
                 <div class="friend-caption">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.

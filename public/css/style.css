@@ -105,7 +105,8 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .docs-menu a{color:#ff5949;text-decoration:none;}.docs-menu a:hover{color:#c81200;text-decoration:underline;}
 .docs-menu>ul>li{padding-left:1em;background-image:url(../img/bookmark.gif);background-repeat:no-repeat;background-position:0 5px;margin-bottom:2em;color:#555;}
 .docs-menu>ul ul{margin-top:0.2em;}
-.docs-body{font-size:15px;padding-bottom:1.5em;-webkit-box-shadow:2px 4px 1px #eeeeee;-moz-box-shadow:2px 4px 1px #eeeeee;box-shadow:2px 4px 1px #eeeeee;}.docs-body>*{margin-left:20px;margin-right:20px;}
+.docs-body{font-size:15px;padding-bottom:1.5em;-webkit-box-shadow:2px 4px 1px #eeeeee;-moz-box-shadow:2px 4px 1px #eeeeee;box-shadow:2px 4px 1px #eeeeee;}.docs-body h2:before{display:block;content:"";height:100px;margin:-100px 0 0;}
+.docs-body>*{margin-left:20px;margin-right:20px;}
 .docs-body pre{font-family:Monaco,Consolas,"Lucida Console",monospace;background-color:#332C29;padding:20px;font-size:0.7em;border:0;color:#e9e4e5;line-height:1.9em;margin:1em 0;}.docs-body pre .pln{color:#faf1e6;}
 .docs-body pre .str{color:#ff5949;}
 .docs-body pre .kwd{color:#ffbd24;}

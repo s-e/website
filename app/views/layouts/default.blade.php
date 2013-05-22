@@ -3,7 +3,7 @@
 @section('head')
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ $title }} - Laravel</title>
+    <title>{{ $title }} - Laravel PHP Framework</title>
     <meta name="description" content="{{ $description }}">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
