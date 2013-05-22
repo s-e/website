@@ -25,3 +25,8 @@ Route::get('/docs/{topic?}', array(
     'as'    => 'docs',
     'uses'  => 'DocumentationController@showTopic',
 ));
+
+App::missing(function($exception)
+{
+    return Response::view('four', array(), 404);
+});
