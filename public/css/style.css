@@ -74,7 +74,7 @@ body{margin-top:3.9em;}
 .container{font-size:16px;width:820px;margin:0 auto;position:relative;}
 header,.features{background-color:#fff;}
 .partners{background-color:#f5f5f5;}
-header{padding:1em 0;z-index:999;}header .logo{float:left;height:30px;width:103px;background-image:url(../img/logo.png);text-decoration:none;}
+header{padding:1em 0;z-index:999;}header .logo{float:left;height:30px;width:103px;background-image:url(../img/logo.png);background-repeat:no-repeat;text-decoration:none;}
 header .menu ul{margin:0;padding:0;list-style-type:none;*zoom:1;float:right;margin-top:0.2em;}header .menu ul li{margin:0;padding:0;}
 header .menu ul li{float:left;margin-left:1.5em;}
 header .menu a{text-decoration:none;text-transform:uppercase;font-size:0.7em;font-weight:normal;color:#ccc;}header .menu a:hover{color:#777;}
