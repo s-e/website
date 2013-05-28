@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ $title }} - Laravel PHP Framework</title>
     <meta name="description" content="{{ $description }}">
-    <!--<meta name="viewport" content="width=device-width">-->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     @yield('css')
     <script src="{{ asset('js/vendor/modernizr-2.6.2.min.js') }}"></script>
@@ -19,7 +18,7 @@
                 <ul>
                     <li<? if(Request::is('/')): ?> class="active"<? endif; ?>><a href="{{ route('home') }}" title="Welcome">Welcome</a></li>
                     <li<? if(Request::is('docs*')): ?> class="active"<? endif; ?>><a href="{{ route('docs') }}" title="Documentation">Documentation</a></li>
-                    <li><a href="#">API</a></li>
+                    <li><a href="http://laravel.com/api" title="Laravel Framework API">API</a></li>
                     <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
                     <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
                 </ul>

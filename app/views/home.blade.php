@@ -62,7 +62,7 @@
     <section class="partners">
         <div class="container">
             <?php $rand = rand(0,10); ?>
-            @if ($rand <= 10)
+            @if ($rand <= 8)
             <div class="friend-box">
                 <div class="friend-logo">
                     <a href="http://www.cartalyst.com/" title="Cartalyst"><img src="{{ asset('img/cartalyst.png') }}"></a>
