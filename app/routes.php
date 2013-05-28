@@ -21,6 +21,11 @@ Route::get('/', array(
     'uses'  => 'HomeController@showHome',
 ));
 
+Route::get('four', array(
+    'as'    => 'home',
+    'uses'  => 'HomeController@showHome',
+));
+
 Route::get('/docs/{topic?}', array(
     'as'    => 'docs',
     'uses'  => 'DocumentationController@showTopic',
