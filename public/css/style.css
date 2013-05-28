@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700);
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
 audio:not([controls]){display:none;height:0;}
@@ -69,7 +69,7 @@ textarea{resize:vertical;}
 .clearfix:after{clear:both;}
 .clearfix{*zoom:1;}
 .striplist{margin:0;padding:0;list-style-type:none;}.striplist li{margin:0;padding:0;}
-html,body{font-family:'Lato',sans-serif;background-color:#ff5949;margin:0;}
+html,body{font-family:Ubuntu,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;background-color:#ff5949;margin:0;}
 body{margin-top:3.9em;}
 .container{font-size:16px;width:820px;margin:0 auto;position:relative;}
 header,.features{background-color:#fff;}
