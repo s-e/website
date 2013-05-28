@@ -22,7 +22,6 @@ Route::get('/', array(
 ));
 
 Route::get('four', array(
-    'as'    => 'home',
     'uses'  => 'HomeController@showHome',
 ));
 
