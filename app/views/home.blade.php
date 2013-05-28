@@ -61,32 +61,24 @@
 
     <section class="partners">
         <div class="container">
-            <?php $rand = rand(0,2); ?>
-            @if ($rand == 0)
+            <?php $rand = rand(0,10); ?>
+            @if ($rand <= 10)
             <div class="friend-box">
                 <div class="friend-logo">
                     <a href="http://www.cartalyst.com/" title="Cartalyst"><img src="{{ asset('img/cartalyst.png') }}"></a>
                 </div>
                 <div class="friend-caption">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
-                </div>
-            </div>
-            @elseif ($rand == 1)
-            <div class="friend-box">
-                <div class="friend-logo">
-                    <a href="http://www.besnappy.com/" title="Snappy"><img src="{{ asset('img/snappy.png') }}"></a>
-                </div>
-                <div class="friend-caption">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
+                    Cartalyst, a Laravel community sponsor, is the leader in premium add-ons and extensions to the Laravel framework. Their arsenal of high quality
+                    components will take your application to the next level.
                 </div>
             </div>
             @else
             <div class="friend-box">
                 <div class="friend-logo">
-                    <a href="http://daylerees.com/" title="Dayle Rees"><img src="{{ asset('img/dayle.png') }}"></a>
+                    <a href="http://www.besnappy.com/" title="Snappy"><img src="{{ asset('img/snappy.png') }}"></a>
                 </div>
                 <div class="friend-caption">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida dignissim sodales. Donec quam tortor, varius eget rutrum a, sollicitudin at augue. Vivamus risus risus, feugiat eget vehicula in, consectetur vitae tellus.
+                    Snappy, a Laravel community sponsor, is a futuristic e-mail and helpdesk solution. Using a beautiful, intuitive interface, Snappy allows you to focus on what matters: your customers.
                 </div>
             </div>
             @endif

@@ -5,12 +5,12 @@
         <div class="container">
             <h2>Documentation</h2>
             <div class="sponsor">
-                <span>Sponsored by</span>
-                <?php $rand = rand(1,2); ?>
-                @if ($rand == 1)
-                <a href="http://www.besnappy.com/" title="Snappy"><img src="{{ asset('img/snappy_small.png') }}"></a>
-                @else
+                <span>Sponsored By</span>
+                <?php $rand = rand(0,10); ?>
+                @if ($rand <= 10)
                 <a href="http://www.cartalyst.com/" title="Cartalyst"><img src="{{ asset('img/cartalyst_small.png') }}"></a>
+                @else
+                <a href="https://besnappy.com/" title="Snappy"><img src="{{ asset('img/snappy_small.png') }}"></a>
                 @endif
             </div>
         </div>
