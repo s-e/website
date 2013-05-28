@@ -12,7 +12,7 @@
     <section class="hero">
         <div class="container">
             <h1>
-                <span class="line-one">The <strong>elegant PHP framework</strong> for web artisans.</span>
+                <span class="line-one">The <strong>PHP framework</strong> for web artisans.</span>
                 <span class="line-two">Just got four times better.</span>
             </h1>
             <a href="/docs/quick" class="call-button">Five Minute Quickstart</a>
