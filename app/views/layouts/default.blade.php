@@ -21,6 +21,7 @@
                     <li><a href="http://laravel.com/api" title="Laravel Framework API">API</a></li>
                     <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
                     <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                    <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,9 +37,10 @@
                 <ul>
                     <li><a href="{{ route('home') }}" title="Welcome">Welcome</a></li>
                     <li><a href="{{ route('docs') }}" title="Documentation">Documentation</a></li>
-                    <li><a href="#">API</a></li>
+                    <li><a href="http://laravel.com/api" title="Laravel Framework API">API</a></li>
                     <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
                     <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                    <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
                 </ul>
             </nav>
             <p class="copyright">Copyright &copy; 2013 Taylor Otwell. Site designed by Casserole Labs &amp; Dayle Rees.</p>

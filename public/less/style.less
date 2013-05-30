@@ -1,5 +1,6 @@
 /* Imports */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+//@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700);
 @import 'normalize.less';
 @import 'boilerplate.less';
 @import 'elements.less';
@@ -23,7 +24,7 @@
 /* Styles */
 html,
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: Ubuntu, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background-color:@orange;
     margin:0;
 }
@@ -57,6 +58,7 @@ header {
         height:30px;
         width:103px;
         background-image:url(../img/logo.png);
+        background-repeat:no-repeat;
         text-decoration:none;
     }
 
@@ -133,12 +135,12 @@ body.scrolled header {
         }
 
         .line-one {
-            width:680px;
+            width:560px;
             margin:1.6em auto 0.6em auto;
         }
 
         .line-two {
-            width:410px;
+            width:400px;
             margin:0 auto 0.8em auto;
         }
     }
