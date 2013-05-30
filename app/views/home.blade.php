@@ -48,7 +48,7 @@
                 </li>
                 <li>
                     <h2><a title="Great Community" href="http://forums.laravel.io">Great Community</a></h2>
-                    <p>Whether your a PHP beginner or architecture astronaut, you'll fit right in. Discuss ideas in the IRC chat room, or post questions in the forum.</p>
+                    <p>Whether you're a PHP beginner or architecture astronaut, you'll fit right in. Discuss ideas in the IRC chat room, or post questions in the forum.</p>
                 </li>
                 <li>
                     <h2><a title="Red, Green, Refactor" href="/docs/testing">Red, Green, Refactor</a></h2>
