@@ -137,7 +137,7 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .docs-body table tr{border-bottom:1px solid #f0f0f0;}
 .friend-box{width:630px;margin:0 auto;overflow:hidden;}.friend-box .friend-logo{float:left;}
 .friend-box .friend-caption{width:460px;float:right;color:#999;text-align:center;padding-top:1.2em;font-weight:300;text-shadow:1px 1px 0 #fff;font-style:italic;}
-.notice{color:#fff;padding:0.8em 0;height:0.4em;text-shadow:1px 1px 4px #e21400;}
+.notice{color:#fff;padding:0.8em 0;height:0.4em;text-shadow:1px 1px 4px #e21400;}.notice a,.notice a:visited{color:#fff;}
 .sponsor{float:right;}
 .not-found{text-align:center;color:#fff;margin-top:10em;text-shadow:1px 1px 4px #e21400;}.not-found h1{font-weight:normal;}
 .not-found p{margin:3em 0;font-weight:300;}
