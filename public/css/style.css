@@ -96,7 +96,8 @@ body.scrolled header{-webkit-box-shadow:0 3px 10px rgba(0, 0, 0, 0.2);-moz-box-s
 footer{padding:2em 0;}footer .logo{display:block;margin:0 auto 0.2em auto;width:27px;height:27px;opacity:0.6;}footer .logo:hover{opacity:1;}
 footer .menu ul{margin:0;padding:0;list-style-type:none;text-align:center;}footer .menu ul li{margin:0;padding:0;}
 footer .menu ul li{display:inline;}
-footer .menu ul a{color:#ffb6af;text-decoration:none;text-transform:uppercase;font-size:0.7em;font-weight:normal;margin:0 0.5em;text-shadow:1px 1px 4px #ff422f;}footer .menu ul a:hover{color:#fff;}
+footer .menu ul a{text-transform:uppercase;font-size:0.7em;font-weight:normal;margin:0 0.5em;}
+footer a{color:#ffb6af;text-decoration:none;text-shadow:1px 1px 4px #ff422f;}footer a:hover{color:#fff;}
 footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform:uppercase;font-size:0.6em;text-shadow:1px 1px 4px #ff422f;}
 .docs-heading{padding:0.3em 0;overflow:hidden;}.docs-heading h2{float:left;color:#fff;text-transform:uppercase;font-weight:300;font-size:1.4em;line-height:1.4em;text-shadow:1px 1px 4px #e21400;}
 .docs-heading .sponsor{float:right;color:#fff;margin-top:6px;}.docs-heading .sponsor img{margin-left:1em;}

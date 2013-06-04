@@ -43,7 +43,7 @@
                     <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
                 </ul>
             </nav>
-            <p class="copyright">Copyright &copy; 2013 Taylor Otwell. Site designed by Casserole Labs &amp; Dayle Rees.</p>
+            <p class="copyright">Copyright &copy; 2013 Taylor Otwell. Site designed by <a href="http://casserolelabs.com/" title="Casserole Labs">Casserole Labs</a> &amp; <a href="http://daylerees.com" title="Dayle Rees">Dayle Rees</a>.</p>
         </div>
     </footer>
 
