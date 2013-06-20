@@ -593,3 +593,21 @@ footer {
         font-size:8em;
     }
 }
+
+.to-top {
+    position:absolute;
+    top:-4px;
+    right:450px;
+    z-index:999999;
+    background-color:@orange;
+    color:#fff;
+    padding:0.8em 1.2em;
+    font-size:0.8em;
+    .transition(.2s, linear);
+    opacity:0;
+}
+
+body.scrolled .to-top {
+    opacity:1;
+    cursor:pointer;
+}

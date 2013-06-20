@@ -143,3 +143,5 @@ footer .copyright{text-align:center;color:#ff9f96;font-weight:300;text-transform
 .not-found{text-align:center;color:#fff;margin-top:10em;text-shadow:1px 1px 4px #e21400;}.not-found h1{font-weight:normal;}
 .not-found p{margin:3em 0;font-weight:300;}
 .not-found .sad{font-size:8em;}
+.to-top{position:absolute;top:-4px;right:450px;z-index:999999;background-color:#ff5949;color:#fff;padding:0.8em 1.2em;font-size:0.8em;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;transition:all 0.2s linear;opacity:0;}
+body.scrolled .to-top{opacity:1;cursor:pointer;}

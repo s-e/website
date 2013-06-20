@@ -1675,3 +1675,8 @@ $('.docs-body h2').each(function(index, element)
   anchor = element.prev().children().eq(0).attr('name');
   element.html(element.html() + '<a class="anchor" href="#' + anchor + '">#</a>');
 });
+
+$('.to-top').click(function()
+{
+  $('html, body').animate({ scrollTop: 0 }, 'slow');
+});

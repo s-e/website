@@ -24,6 +24,7 @@
                     <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
                 </ul>
             </nav>
+            <a class="to-top">Back to Top</a>
         </div>
     </header>
 
