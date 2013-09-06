@@ -62,7 +62,7 @@
     <section class="partners">
         <div class="container">
             <?php $rand = rand(0,10); ?>
-            @if ($rand <= 8)
+            @if ($rand <= 5)
             <div class="friend-box">
                 <div class="friend-logo">
                     <a href="http://www.cartalyst.com/" title="Cartalyst"><img src="{{ asset('img/cartalyst.png') }}"></a>
@@ -75,10 +75,10 @@
             @else
             <div class="friend-box">
                 <div class="friend-logo">
-                    <a href="http://www.besnappy.com/" title="Snappy"><img src="{{ asset('img/snappy.png') }}"></a>
+                    <a href="http://www.a2hosting.com/" title="Snappy"><img src="{{ asset('img/a2host.png') }}"></a>
                 </div>
                 <div class="friend-caption">
-                    Snappy, a Laravel community sponsor, is a futuristic e-mail and helpdesk solution. Using a beautiful, intuitive interface, Snappy allows you to focus on what matters: your customers.
+                    A2 Hosting is your high performance Laravel hosting provider. Deploy Laravel on our screaming fast SSDs featuring 300% faster page load speeds than our competition. Questions? Just ask our 24/7/365 Guru Crew support team!
                 </div>
             </div>
             @endif
