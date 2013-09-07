@@ -61,7 +61,7 @@
 
     <section class="partners">
         <div class="container">
-            <?php $rand = rand(0,10); ?>
+            <?php $rand = rand(1,10); ?>
             @if ($rand <= 5)
             <div class="friend-box">
                 <div class="friend-logo">
