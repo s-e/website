@@ -7,10 +7,12 @@
             <div class="sponsor">
                 <span>Sponsored By</span>
                 <?php $rand = rand(0,10); ?>
-                @if ($rand <= 5)
-                <a href="http://www.cartalyst.com/" title="Cartalyst"><img src="{{ asset('img/cartalyst_small.png') }}"></a>
-                @else
+                @if ($rand <= 3)
+                <a href="http://www.cartalyst.com" title="Cartalyst"><img src="{{ asset('img/cartalyst_small.png') }}"></a>
+                @elseif ($rand <=6)
                 <a href="http://www.a2hosting.com" title="A2 Hosting"><img src="{{ asset('img/a2_small.png') }}"></a>
+                @else
+                <a href="http://www.solspace.com" title="Solspace"><img src="{{ asset('img/solspace_small.png') }}"></a>
                 @endif
             </div>
         </div>

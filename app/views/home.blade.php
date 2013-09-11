@@ -62,7 +62,7 @@
     <section class="partners">
         <div class="container">
             <?php $rand = rand(0,10); ?>
-            @if ($rand <= 5)
+            @if ($rand <= 3)
             <div class="friend-box">
                 <div class="friend-logo">
                     <a href="http://www.cartalyst.com/" title="Cartalyst"><img src="{{ asset('img/cartalyst.png') }}"></a>
@@ -72,13 +72,22 @@
                     components will take your application to the next level.
                 </div>
             </div>
-            @else
+            @elseif($rand <= 6)
             <div class="friend-box">
                 <div class="friend-logo">
                     <a href="http://www.a2hosting.com/" title="Snappy"><img src="{{ asset('img/a2host.png') }}"></a>
                 </div>
                 <div class="friend-caption">
                     A2 Hosting is your high performance Laravel hosting provider. Deploy Laravel on our screaming fast SSDs featuring 300% faster page load speeds than our competition. Questions? Just ask our 24/7/365 Guru Crew support team!
+                </div>
+            </div>
+            @else
+            <div class="friend-box">
+                <div class="friend-logo">
+                    <a href="http://www.solspace.com" title="Solspace"><img src="{{ asset('img/solspace.png') }}"></a>
+                </div>
+                <div class="friend-caption">
+                    Solspace is a web application development firm with more than a decade of experience meeting the needs of a diverse range of clients. We value long-term relationships with our clients, many of whom have been working with us over the lifetime of their website. We can work as a sole web technology partner or happily integrate with other in-house or contracted teams of programmers and designers.
                 </div>
             </div>
             @endif
