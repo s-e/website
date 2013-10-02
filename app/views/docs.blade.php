@@ -10,7 +10,7 @@
                 @if ($rand <= 3)
                 <a href="http://www.cartalyst.com" title="Cartalyst"><img src="{{ asset('img/cartalyst_small.png') }}"></a>
                 @elseif ($rand <=6)
-                <a href="http://www.a2hosting.com" title="A2 Hosting"><img src="{{ asset('img/a2_small.png') }}"></a>
+                <a href="http://www.a2hosting.com/high-speed-laravel-hosting/?utm_source=laravel&utm_medium=cpm&utm_content=&utm_campaign=" title="A2 Hosting"><img src="{{ asset('img/a2_small.png') }}"></a>
                 @else
                 <a href="http://www.solspace.com" title="Solspace"><img src="{{ asset('img/solspace_small.png') }}"></a>
                 @endif

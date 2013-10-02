@@ -75,7 +75,7 @@
             @elseif($rand <= 6)
             <div class="friend-box">
                 <div class="friend-logo">
-                    <a href="http://www.a2hosting.com/" title="Snappy"><img src="{{ asset('img/a2host.png') }}"></a>
+                    <a href="http://www.a2hosting.com/high-speed-laravel-hosting/?utm_source=laravel&utm_medium=cpm&utm_content=&utm_campaign=" title="Snappy"><img src="{{ asset('img/a2host.png') }}"></a>
                 </div>
                 <div class="friend-caption">
                     A2 Hosting is your high performance Laravel hosting provider. Deploy Laravel on our screaming fast SSDs featuring 300% faster page load speeds than our competition. Questions? Just ask our 24/7/365 Guru Crew support team!
