@@ -951,7 +951,7 @@ footer .copyright {
   width: 160px;
   background-color: #fff;
   padding: 20px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   -webkit-box-shadow: 2px 4px 1px #eeeeee;
   -moz-box-shadow: 2px 4px 1px #eeeeee;
   box-shadow: 2px 4px 1px #eeeeee;
@@ -1148,7 +1148,7 @@ footer .copyright {
 }
 .docs-body table {
   border: 1px solid #eee;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 .docs-body table td,
 .docs-body table th {
