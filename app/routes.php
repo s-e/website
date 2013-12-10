@@ -34,7 +34,7 @@ define('DOCS_VERSION', Cookie::get('docs_version'));
  */
 App::missing(function($e)
 {
-	if (Request::is('docs/*'))
+	if (Request::is('docs/*') or Request::is('docs'))
 	{
 		return Redirect::to('docs');
 	}
