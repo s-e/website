@@ -6,7 +6,7 @@ rm -rf /var/www/laravel.com/sami/build
 rm -rf /var/www/laravel.com/sami/cache
 
 # Run API Docs For Master
-git clone https://github.com/laravel.framework.git /var/www/laravel.com/sami/laravel
+git clone https://github.com/laravel/framework.git /var/www/laravel.com/sami/laravel
 
 php /var/www/laravel.com/sami/sami.php update /var/www/laravel.com/sami/config.php
 
