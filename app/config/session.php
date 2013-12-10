@@ -24,7 +24,7 @@ return array(
 	|--------------------------------------------------------------------------
 	|
 	| Here you may specify the number of minutes that you wish the session
-	| to be allowed to remain idle for it is expired. If you want them
+	| to be allowed to remain idle before it expires. If you want them
 	| to immediately expire when the browser closes, set it to zero.
 	|
 	*/
@@ -121,18 +121,5 @@ return array(
 	*/
 
 	'domain' => null,
-
-	/*
-	|--------------------------------------------------------------------------
-	| Session Payload Cookie Name
-	|--------------------------------------------------------------------------
-	|
-	| When using the "cookie" session driver, you may configure the name of
-	| the cookie used as the session "payload". This cookie actually has
-	| the encrypted session data stored within it for the application.
-	|
-	*/
-
-	'payload' => 'laravel_payload',
 
 );
