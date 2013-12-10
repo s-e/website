@@ -14,7 +14,7 @@ $iterator = Finder::create()
 
 return new Sami($iterator, array(
     'title'                => 'Laravel API',
-    'build_dir'            => __DIR__.'/build/%version%',
-    'cache_dir'            => __DIR__.'/cache/%version%',
+    'build_dir'            => __DIR__.'/build',
+    'cache_dir'            => __DIR__.'/cache',
     'default_opened_level' => 2,
 ));

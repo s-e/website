@@ -1,0 +1,1 @@
+php sami/sami.php update sami/config.php
