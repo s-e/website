@@ -62,13 +62,13 @@
         <header id="header" role="header">
             <div class="boxed">
                 <!-- tagline -->
-                <div id="tagline" class="animated bounceInUp">
+                <div id="tagline">
                     <h1>Documentation.</h1>
                 </div>
                 <!-- /tagline -->
 
                 <!-- version -->
-                <div id="version" class="animated bounceInUp">
+                <div id="version">
                     <ul class="nolist">
                         @if (Cookie::get('docs_version') == 'master')
                             <li class="current"><a href="{{ url('docs/dev') }}" title="Dev">Dev</a></li>
