@@ -27,14 +27,14 @@ if ( ! Cookie::has('docs_version'))
 	Cookie::queue('docs_versions', '4.0');
 }
 
-define('DOCS_VERSION', Cookie::get('docs_version'));
+define('DOCS_VERSION', Cookie::get('docs_version', '4.0'));
 
 /**
  * Catch A 404 On Docs...
  */
 App::missing(function($e)
 {
-	if (Request::is('docs/*') or Request::is('docs'))
+	if (Request::is('docs/*'))
 	{
 		return Redirect::to('docs');
 	}
