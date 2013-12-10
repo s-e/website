@@ -512,13 +512,14 @@ Pages
     font-size: 32px;
 }
 
-#documentation #docs-content h2
-{
-    font-size: 32px;
-    margin-top: 20px;
-    padding-top: 35px;
-    border-top: 1px solid #eeeeee;
-    color: #666666;
+#documentation #docs-content h2 {
+font-size: 32px;
+margin-top: 20px;
+padding-top: 35px;
+border-top: 1px solid #EEE;
+color: #666;
+float: left;
+width: 100%;
 }
 
 #documentation #docs-content h2:before
