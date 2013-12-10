@@ -515,6 +515,7 @@ Pages
 
 #documentation #docs-content h2
 {
+    font-size: 32px;
     margin-top: 10px;
     padding-top: 35px;
     border-top: 1px solid #eeeeee;
@@ -529,6 +530,15 @@ Pages
     -khtml-opacity: 0.4;
     -moz-opacity: 0.4;
     opacity: 0.4;
+}
+
+#documentation #docs-content h3
+{
+    font-size: 26px;
+    margin-top: 10px;
+    padding-top: 35px;
+    border-top: 1px solid #eeeeee;
+    color: #666666;
 }
 
 #documentation #docs-content ul
