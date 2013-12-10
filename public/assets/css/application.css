@@ -568,9 +568,9 @@ Pages
     border-radius: 2px;
 }
 
-#documentation #docs-content blockquote p
-{
-    color: #ffffff;
+#documentation #docs-content blockquote p,
+#documentation #docs-content blockquote a {
+color: #FFF;
 }
 
 /* forge */
