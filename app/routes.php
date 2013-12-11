@@ -79,20 +79,14 @@ Route::get('docs/{page?}', function($page = null)
 {
 	if (is_null($page)) $page = 'introduction';
 
-	$index = Cache::remember('docs.'.DOCS_VERSION.'.index', 15, function()
+	$index = Cache::remember('docs.'.DOCS_VERSION.'.index', 5, function()
 	{
-		$response = Httpful\Request::get('https://raw.github.com/laravel/docs/'.DOCS_VERSION.'/documentation.md', 'text/plain')->send();
-
-		return markdown($response->body);
+		return markdown(base_path().'/docs/'.DOCS_VERSION.'/documentation.md');
 	});
 
-	$contents = Cache::remember('docs.'.DOCS_VERSION.'.'.$page, 15, function() use ($page)
+	$contents = Cache::remember('docs.'.DOCS_VERSION.'.'.$page, 5, function() use ($page)
 	{
-		$response = Httpful\Request::get('https://raw.github.com/laravel/docs/'.DOCS_VERSION.'/'.$page.'.md')->send();
-
-		if ($response->code == 404) App::abort(404);
-
-		return markdown($response->body);
+		return markdown(base_path().'/docs/'.DOCS_VERSION.'/'.$page.'.md');
 	});
 
 	return View::make('layouts.docs', compact('index', 'contents'));
