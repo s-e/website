@@ -81,12 +81,19 @@ Route::get('docs/{page?}', function($page = null)
 
 	$index = Cache::remember('docs.'.DOCS_VERSION.'.index', 5, function()
 	{
-		return markdown(base_path().'/docs/'.DOCS_VERSION.'/documentation.md');
+		return markdown(file_get_contents(base_path().'/docs/'.DOCS_VERSION.'/documentation.md'));
 	});
 
 	$contents = Cache::remember('docs.'.DOCS_VERSION.'.'.$page, 5, function() use ($page)
 	{
-		return markdown(base_path().'/docs/'.DOCS_VERSION.'/'.$page.'.md');
+		if (file_exists($path = base_path().'/docs/'.DOCS_VERSION.'/'.$page.'.md'))
+		{
+			return markdown(file_get_contents($path));
+		}
+		else
+		{
+			return 'Not Found';
+		}
 	});
 
 	return View::make('layouts.docs', compact('index', 'contents'));
