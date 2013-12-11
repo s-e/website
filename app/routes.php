@@ -96,5 +96,7 @@ Route::get('docs/{page?}', function($page = null)
 		}
 	});
 
+	if ($contents == 'Not Found') return Redirect::to('docs');
+
 	return View::make('layouts.docs', compact('index', 'contents'));
 });
