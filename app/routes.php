@@ -24,7 +24,7 @@ function markdown($value)
  */
 if ( ! Cookie::has('docs_version'))
 {
-	Cookie::queue('docs_versions', '4.0');
+	Cookie::queue('docs_versions', '4.1');
 }
 
 define('DOCS_VERSION', Cookie::get('docs_version', '4.1'));
