@@ -633,7 +633,7 @@ pre.prettyprint span
 display: block;
 font-family:Monaco,Consolas,"Lucida Console",monospace;
 background-color:#333;
-font-size: 8px !important;
+font-size: 8px;
 border:0;
 color:#e9e4e5;
 line-height:1.9em;
@@ -670,6 +670,7 @@ color:red;
 
 .prettyprint code {
 font-family:Monaco,Consolas,"Lucida Console",monospace;
+font-size: 8px;
 }
 
 .prettyprint .str,.prettyprint .lit,.prettyprint .atv {
