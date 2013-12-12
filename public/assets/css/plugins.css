@@ -630,6 +630,7 @@ pre.prettyprint span
 */
 
 .prettyprint {
+  display: block;
 font-family:Monaco,Consolas,"Lucida Console",monospace;
 background-color:#333;
 font-size:.75em;
@@ -642,7 +643,9 @@ border-radius:5px;
 -moz-background-clip:padding-box;
 -webkit-background-clip:padding-box;
 background-clip:padding-box;
-padding:1.5em;
+padding: 20px!important;
+white-space: pre;
+overflow: hidden;
 }
 
 .prettyprint .pln {
