@@ -607,6 +607,7 @@ pre .dec,
 pre .var { color:#660066; }
 pre .fun { color:#ff0000; }
 
+/*
 pre.prettyprint
 {
     background: #3F3F49;
@@ -624,7 +625,48 @@ pre.prettyprint
 pre.prettyprint span
 {
 	font-size: 13px!important;
-	/*font-weight: 600!important;*/
+	/*font-weight: 600!important;
+}
+*/
+
+.prettyprint {
+font-family:Monaco,Consolas,"Lucida Console",monospace;
+background-color:#333;
+font-size:.75em;
+border:0;
+color:#e9e4e5;
+line-height:1.9em;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+-moz-background-clip:padding-box;
+-webkit-background-clip:padding-box;
+background-clip:padding-box;
+padding:1.5em;
+}
+
+.prettyprint .pln {
+color:#e9e4e5;
+}
+
+.prettyprint .com {
+color:#888;
+}
+
+.prettyprint .pun,.prettyprint .opn,.prettyprint .clo {
+color:#fff;
+}
+
+.prettyprint .dec,.prettyprint .var {
+color:#606;
+}
+
+.prettyprint .fun {
+color:red;
+}
+
+.prettyprint code {
+font-family:Monaco,Consolas,"Lucida Console",monospace;
 }
 
 ol.linenums
