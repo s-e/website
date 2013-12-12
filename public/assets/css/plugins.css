@@ -672,6 +672,18 @@ color:red;
 font-family:Monaco,Consolas,"Lucida Console",monospace;
 }
 
+.prettyprint .str,.prettyprint .lit,.prettyprint .atv {
+color:#bcd42a;
+}
+
+.prettyprint .kwd,.prettyprint .tag {
+color:#4bb1b1;
+}
+
+.prettyprint .typ,.prettyprint .atn {
+color:#ef7c61;
+}
+
 ol.linenums
 {
     margin-top: 0;
