@@ -27,7 +27,7 @@ if ( ! Cookie::has('docs_version'))
 	Cookie::queue('docs_versions', '4.0');
 }
 
-define('DOCS_VERSION', Cookie::get('docs_version', '4.0'));
+define('DOCS_VERSION', Cookie::get('docs_version', '4.1'));
 
 /**
  * Catch A 404 On Docs...
