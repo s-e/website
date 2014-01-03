@@ -173,7 +173,7 @@
     <!-- copyright -->
     <section id="copyright" class="textcenter">
         <div class="boxed">
-            <div class="animated slideInLeft">Copyright &copy; 2013 <a href="http://twitter.com/taylorotwell" title="Taylor Otwell" target="_blank">Taylor Otwell</a>. Website built with &hearts; <a href="//ikreativ.com" title="iKreativ" target="_blank">iKreativ</a>.</div>
+            <div class="animated slideInLeft">Laravel is a trademark of Taylor Otwell. Copyright &copy; <a href="http://twitter.com/taylorotwell" title="Taylor Otwell" target="_blank">Taylor Otwell</a>. Website built with &hearts; <a href="//ikreativ.com" title="iKreativ" target="_blank">iKreativ</a>.</div>
         </div>
     </section>
     <!-- /copyright -->
