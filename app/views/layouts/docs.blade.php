@@ -70,11 +70,11 @@
                 <!-- version -->
                 <div id="version">
                     <ul class="nolist">
-                        @if (Cookie::get('docs_version') == 'master')
+                        @if (DOCS_VERSION == 'master')
                             <li class="current"><a href="{{ url('docs/dev') }}" title="Dev">Dev</a></li>
                             <li><a href="{{ url('docs/4-1') }}" title="4.1">4.1</a></li>
                             <li><a href="{{ url('docs/4-0') }}" title="4.0">4.0</a></li>
-                        @elseif (Cookie::get('docs_version') == '4.1')
+                        @elseif (DOCS_VERSION == '4.1')
                             <li><a href="{{ url('docs/dev') }}" title="Dev">Dev</a></li>
                             <li class="current"><a href="{{ url('docs/4-1') }}" title="4.1">4.1</a></li>
                             <li><a href="{{ url('docs/4-0') }}" title="4.0">4.0</a></li>
