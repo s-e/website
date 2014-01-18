@@ -427,14 +427,6 @@ Pages
 }
 
 /* documentation */
-*:target::before {
-    height: 30px;
-    margin-top: -63px;
-    display: block;
-    content: " ";
-    visibility: hidden;
-}
-
 #documentation nav#docs
 {
     width: 200px;
